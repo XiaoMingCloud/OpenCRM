@@ -1,0 +1,90 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+    favicon:
+      enabled: false
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  resources:
+    add-mappings: false
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+mybatis-plus:
+  configuration:
+    default-scripting-language: com.liujiaming.core.mybatis.MybatisXMLDriver
+    call-setters-on-nulls: true
+  mapper-locations: classpath:/mapper/xml/*.xml
+
+ribbon:
+  okhttp:
+    enabled: true
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 600000
+        read-timeout: 600000
+
+  sentinel:
+    enabled: true  #启用 Sentinel，用于流量控制、熔断降级等功能，帮助保护服务的稳定性。
+  httpclient:
+    enabled: false  #禁用默认的 HTTP 客户端
+  okhttp:
+    enabled: true
+jetcache:
+  statIntervalMinutes: 0
+  areaInCacheName: false
+  remote:
+    default:
+      type: redis
+      keyConvertor: fastjson
+      poolConfig:   #Redis 连接池配置
+        minIdle: 5  #最小空闲连接数为 5
+        maxIdle: 20  #最大空闲连接数为 20
+        maxTotal: 50  #最大连接数为 50
+      host: ${spring.redis.host}
+      port: ${spring.redis.port}
+      password: ${spring.redis.password}
+      expireAfterWriteInMillis: 1800000
+
+crm:
+  upload:
+    #上传类型 1 本地 2 阿里云OSS 3 腾讯云COS 4 七牛云QNC
+    config: 1
+    oss:
+      endpoint:
+      accessKeyId:
+      accessKeySecret:
+      publicUrl:
+      bucketName:
+        0:
+        1:
+    local:
+      publicUrl:
+      uploadPath:
+        0: E:/upload/private
+        1: E:/upload/public
+    cos:
+      region:
+      secretId:
+      secretKey:
+      publicUrl:
+      bucketName:
+        0:
+        1:
+    qnc:
+      accessKey:
+      secretKey:
+      publicUrl:
+      privateUrl:
+      bucketName:
+        0:
+        1:
+
+

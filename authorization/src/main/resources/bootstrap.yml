@@ -1,0 +1,30 @@
+#核心配置
+server:
+  port: ${SERVER_PORT:0}
+spring:
+  application:
+    name: authorization
+  profiles:
+    include: core,dev
+  cloud:
+    nacos:
+      config:
+        enabled: true
+        server-addr: 100.75.29.25:8848
+        file-extension: yaml
+        prefix: authorization
+      discovery:
+        enabled: true
+        server-addr: 100.75.29.25:8848
+    sentinel:
+      filter:
+        enabled: false  #禁用 Sentinel 的过滤器功能
+      transport:
+        dashboard: ${SENTINEL_DASHBOARD_HOST:100.75.29.25}:${SENTINEL_DASHBOARD_PORT:8079} #配置 Sentinel Dashboard 的地址
+      datasource:
+        flow:
+          server-addr: 100.75.29.25:8848
+          dataId: ${spring.application.name}-flow-rules
+          groupId: SENTINEL_GROUP
+          rule-type: flow
+
