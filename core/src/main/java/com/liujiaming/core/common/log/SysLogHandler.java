@@ -5,7 +5,7 @@ import com.liujiaming.core.common.SubModelType;
 import java.lang.annotation.*;
 
 /**
- * @author hmb
+ * @author liujiaming
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD})

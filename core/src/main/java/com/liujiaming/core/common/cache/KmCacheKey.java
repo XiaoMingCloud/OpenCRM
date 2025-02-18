@@ -2,7 +2,7 @@ package com.liujiaming.core.common.cache;
 
 /**
  * 知识库缓存key
- * @author hmb
+ * @author liujiaming
  */
 public interface KmCacheKey {
     /**

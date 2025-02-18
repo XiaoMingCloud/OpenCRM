@@ -4,9 +4,11 @@ import com.alibaba.fastjson.JSONObject;
 import com.liujiaming.core.common.ApiExplain;
 import com.liujiaming.core.common.Result;
 import com.liujiaming.core.entity.UserInfo;
+
 import com.liujiaming.core.feign.admin.entity.*;
 import com.liujiaming.core.feign.admin.entity.*;
 import com.liujiaming.core.feign.admin.fallback.AdminServiceFallback;
+
 import io.swagger.annotations.ApiOperation;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +17,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * @author zhangzhwei
+ * @author liujiaming
  * 系统管理模块的一些请求
  */
 @FeignClient(name = "admin",contextId = "admin",fallbackFactory = AdminServiceFallback.class)

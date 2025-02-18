@@ -1,6 +1,7 @@
 package com.liujiaming.core.feign.hrm.service;
 
 import com.liujiaming.core.common.Result;
+
 import com.liujiaming.core.feign.hrm.entity.HrmSalaryMonthRecord;
 import com.liujiaming.core.feign.hrm.fallback.SalaryRecordServiceFallback;
 import io.swagger.annotations.ApiOperation;

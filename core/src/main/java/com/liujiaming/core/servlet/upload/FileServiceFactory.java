@@ -3,7 +3,7 @@ package com.liujiaming.core.servlet.upload;
 import com.liujiaming.core.servlet.ApplicationContextHolder;
 
 /**
- * @author zhang
+ * @author liujiaming
  */
 public class FileServiceFactory {
 

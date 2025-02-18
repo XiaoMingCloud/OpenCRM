@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author zhang
+ * @author liujiaming
  * swagger配置
  */
 

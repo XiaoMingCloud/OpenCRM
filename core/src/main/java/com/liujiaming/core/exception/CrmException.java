@@ -5,7 +5,7 @@ import com.liujiaming.core.common.ResultCode;
 /**
  * crm默认的异常处理
  *
- * @author Administrator
+ * @author liujiaming
  */
 public class CrmException extends RuntimeException implements ResultCode {
 

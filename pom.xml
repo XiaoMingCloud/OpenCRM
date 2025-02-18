@@ -8,8 +8,7 @@
     <packaging>pom</packaging>
 
     <name>wkcrm</name>
-    <description>长情软件</description>
-
+    <description>OpenCRM</description>
     <modules>
         <module>core</module>
         <module>gateway</module>
@@ -22,8 +21,7 @@
         <module>job</module>
         <module>examine</module>
         <module>hrm</module>
-
-
+        <module>springboot_admin</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -100,6 +98,18 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-okhttp</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
+        </dependency>
+
+
         <!--熔断降级-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

@@ -6,7 +6,7 @@ import java.lang.annotation.*;
 
 /**
  * 系统日志注解
- * @author hmb
+ * @author liujiaming
  */
 @Retention(RetentionPolicy.RUNTIME)  //注解将在运行时可通过反射机制读取
 @Target({ElementType.TYPE})  // 用于类、接口（包括注解类型）或枚举

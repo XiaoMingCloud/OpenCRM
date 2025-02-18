@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 
 /**
  * 范围校验注解(min不能大于max)
- * @author hmb
+ * @author liujiaming
  */
 @Target({ElementType.TYPE,ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)

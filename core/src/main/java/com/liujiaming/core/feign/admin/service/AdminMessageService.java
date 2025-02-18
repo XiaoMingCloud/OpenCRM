@@ -4,6 +4,7 @@ import com.liujiaming.core.common.Result;
 import com.liujiaming.core.feign.admin.entity.AdminMessage;
 import com.liujiaming.core.feign.admin.entity.AdminMessageBO;
 import com.liujiaming.core.feign.admin.fallback.AdminMessageServiceFallback;
+
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

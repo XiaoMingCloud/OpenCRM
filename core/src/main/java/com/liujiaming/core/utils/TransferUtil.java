@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 /**
  * @Description: 类转换工具类
- * @author: hmb
+ * @author: liujiaming
  * @date: 2024-05-12 14:00
  */
 public class TransferUtil {

@@ -3,7 +3,7 @@ package com.liujiaming.core.common;
 /**
  * 数据权限枚举
  *
- * @author hmb
+ * @author liujiaming
  */
 
 public enum DataAuthEnum {

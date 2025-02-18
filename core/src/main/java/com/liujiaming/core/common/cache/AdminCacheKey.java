@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 /**
  * admin缓存key
- * @author hmb
+ * @author liujiaming
  */
 public interface AdminCacheKey {
 

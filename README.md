@@ -1,6 +1,7 @@
 
-声明：本项目基于悟空crm（https://gitee.com/wukongcrm/crm_pro）  进行二次开发和修改，如有侵权请联系删除
-适合于学习，商用请自行考虑法律风险
+声明：本项目OpenCRM学习悟空crm（https://gitee.com/wukongcrm/crm_pro）  进行开发和修改，如有侵权请联系删除
+前端地址：https://github.com/XMmate/NimbusCRMWeb
+适合于微服务学习，商用请自行考虑法律风险
 ## 目录结构
 
 ``` lua
@@ -69,10 +70,10 @@ CRM/OA功能：<br/>
 ### 一、前置环境
 - Jdk1.8
 - Maven3.5.0+   
-- Mysql5.7.20 （<a href="https://gitee.com/wukongcrm/crm_pro/wikis/mysql配置说明" target="_blank">数据库安装注意事项</a>）
+- Mysql5.7.20 
 - Redis(版本不限)
-- Elasticsearch 6.8.6 （<a href="https://gitee.com/wukongcrm/crm_pro/wikis/elasticsearch配置说明" target="_blank">环境配置注意事项</a>）
-- Seata（1.2.0）（<a href="https://gitee.com/wukongcrm/crm_pro/wikis/seata" target="_blank">配置说明</a>）
+- Elasticsearch 6.8.6 （
+- Seata（1.2.0）
 - Sentinel（1.7.2）（项目中sentinel使用8079端口）
 - Nacos（1.2.1)
 #### 2.模块依赖关系 <br/>

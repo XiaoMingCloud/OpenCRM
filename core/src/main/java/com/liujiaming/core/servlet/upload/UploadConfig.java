@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 import java.util.Map;
 
 /**
- * @author 上传文件配置
+ * @author liujiaming
+ * 上传文件配置
  */
 @Data
 @Component

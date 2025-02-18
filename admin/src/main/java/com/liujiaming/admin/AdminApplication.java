@@ -1,5 +1,6 @@
 package com.liujiaming.admin;
 
+import com.alibaba.cloud.sentinel.annotation.SentinelRestTemplate;
 import com.alicp.jetcache.anno.config.EnableCreateCacheAnnotation;
 import com.alicp.jetcache.anno.config.EnableMethodCache;
 import com.liujiaming.core.CoreApplication;

@@ -35,21 +35,35 @@ spring:
         dashboard: ${SENTINEL_DASHBOARD_HOST:100.75.29.25}:${SENTINEL_DASHBOARD_PORT:8079}
       datasource:
         flow:
-          server-addr: 100.75.29.25:8848
-          dataId: ${spring.application.name}-flow-rules
-          groupId: SENTINEL_GROUP
-          rule-type: flow
+          nacos:
+            server-addr: 100.75.29.25:8848
+            dataId: ${spring.application.name}-flow-rules
+            groupId: SENTINEL_GROUP
+            rule-type: flow
     gateway:
       enabled: true
       discovery:
         locator:
           lower-case-service-id: true
           enabled: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000
+        username: liujiaming
+        password: 123456
+        instance:
+          prefer-ip: true
 
 crm:
   gateway:
     ignoreUrl:
       - /adminSuite/dataReceive
-upgradeFile:
-  #升级文件地址
-  url: D:/工具/version.json
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
+  endpoint:
+    health:
+      show-details: always

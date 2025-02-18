@@ -1,6 +1,7 @@
 package com.liujiaming.core.feign.admin.service;
 
 import com.liujiaming.core.common.Result;
+
 import com.liujiaming.core.feign.admin.entity.CallUser;
 import com.liujiaming.core.feign.admin.fallback.CallUserServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;

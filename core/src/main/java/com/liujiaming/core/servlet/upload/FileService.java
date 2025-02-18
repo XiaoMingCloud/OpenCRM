@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.InputStream;
 
 /**
- * @author z
+ * @author liujiaming
  * 文件上传接口
  */
 public interface FileService {

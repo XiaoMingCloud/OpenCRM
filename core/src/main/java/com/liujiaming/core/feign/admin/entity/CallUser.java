@@ -8,8 +8,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author Ian
- * @date 2024/8/28
+ * @author liujiaming
  */
 @Data
 @ApiModel("呼叫中心用户")

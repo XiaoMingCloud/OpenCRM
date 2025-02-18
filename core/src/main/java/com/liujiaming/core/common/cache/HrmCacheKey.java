@@ -2,7 +2,7 @@ package com.liujiaming.core.common.cache;
 
 /**
  * 人力资源缓存key
- * @author hmb
+ * @author liujiaming
  */
 public interface HrmCacheKey {
 

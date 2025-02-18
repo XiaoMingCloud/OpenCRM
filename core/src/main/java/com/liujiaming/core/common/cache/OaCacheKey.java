@@ -3,7 +3,7 @@ package com.liujiaming.core.common.cache;
 /**
  * oa缓存key
  *
- * @author hmb
+ * @author liujiaming
  */
 public interface OaCacheKey {
     /**

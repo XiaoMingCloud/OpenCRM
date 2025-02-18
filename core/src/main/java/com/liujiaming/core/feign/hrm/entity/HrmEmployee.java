@@ -16,7 +16,7 @@ import java.util.Date;
  * 员工表
  * </p>
  *
- * @author huangmingbo
+ * @author liujiaming
  * @since 2024-05-12
  */
 @Data

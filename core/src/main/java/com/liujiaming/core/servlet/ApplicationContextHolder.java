@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Nonnull;
 
 /**
- * @author z
+ * @author liujiaming
  * ApplicationContext对象的获取
  */
 @Component

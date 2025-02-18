@@ -1,0 +1,13 @@
+
+
+management:
+  info:
+   env:
+     enabled=true
+spring:
+  security:
+    user:
+      name: liujiaming
+      password: 123456
+server:
+  port: 9000
