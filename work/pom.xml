@@ -5,12 +5,12 @@
 		<packaging>jar</packaging>
 		<parent>
 			<groupId>com.liujiaming</groupId>
-			<artifactId>wkcrm</artifactId>
+			<artifactId>opencrm</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 
 		</parent>
 
-	<artifactId>wk_work</artifactId>
+	<artifactId>open_work</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>work</name>
 	<description>项目管理</description>

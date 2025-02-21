@@ -5,11 +5,11 @@
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>com.liujiaming</groupId>
-		<artifactId>wkcrm</artifactId>
+		<artifactId>opencrm</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>wk_hrm</artifactId>
+	<artifactId>open_hrm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hrm</name>
 	<description>系统管理</description>

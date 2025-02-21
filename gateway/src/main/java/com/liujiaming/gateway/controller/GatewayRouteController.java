@@ -22,8 +22,7 @@ public class GatewayRouteController {
     @Autowired
     private GatewayRouteService gatewayRouteService;
 
-    @Value("${upgradeFile.url}")
-    private String fileUrl;
+
 
     @RequestMapping("/")
     public Result index(){
@@ -39,24 +38,6 @@ public class GatewayRouteController {
     public Result reloadConfig(){
         gatewayRouteService.loadConfig();
         return Result.ok();
-    }
-
-
-    /**
-     * 查询升级
-     * @return
-     */
-    @RequestMapping("/queryUpgradeFile")
-    public Result<JSONObject> queryUpgradeFile(){
-        if (FileUtil.exist(fileUrl)) {
-            FileReader fileReader = new FileReader(fileUrl);
-            String str = fileReader.readString();
-            if (StrUtil.isNotEmpty(str)) {
-                JSONObject json = JSON.parseObject(str);
-                return Result.ok(json);
-            }
-        }
-        return Result.ok(new JSONObject());
     }
 
 }

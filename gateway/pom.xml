@@ -5,11 +5,11 @@
     <packaging>jar</packaging>
     <parent>
         <groupId>com.liujiaming</groupId>
-        <artifactId>wkcrm</artifactId>
+        <artifactId>opencrm</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>wk_gateway</artifactId>
+    <artifactId>open_gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gateway</name>
     <description>gateway网关</description>

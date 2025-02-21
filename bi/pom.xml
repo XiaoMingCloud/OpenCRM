@@ -5,12 +5,12 @@
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>com.liujiaming</groupId>
-		<artifactId>wkcrm</artifactId>
+		<artifactId>opencrm</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 
 	</parent>
 
-	<artifactId>wk_bi</artifactId>
+	<artifactId>open_bi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bi</name>
 	<description>商业智能模块</description>

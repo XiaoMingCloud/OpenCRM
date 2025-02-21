@@ -1,6 +1,6 @@
 
-声明：本项目OpenCRM学习悟空crm（https://gitee.com/wukongcrm/crm_pro）  进行开发和修改，如有侵权请联系删除
-前端地址：https://github.com/XMmate/NimbusCRMWeb
+
+前端地址：https://github.com/XiaoMingCloud/OpenCRMWeb
 适合于微服务学习，商用请自行考虑法律风险
 ## 目录结构
 

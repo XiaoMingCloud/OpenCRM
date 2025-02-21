@@ -6,11 +6,11 @@
     <packaging>jar</packaging>
     <parent>
         <groupId>com.liujiaming</groupId>
-        <artifactId>wkcrm</artifactId>
+        <artifactId>opencrm</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>wk_authorization</artifactId>
+    <artifactId>open_authorization</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>authorization</name>
     <description>authorization鉴权</description>

@@ -5,12 +5,12 @@
 	<packaging>jar</packaging>
 	<parent>
 		<groupId>com.liujiaming</groupId>
-		<artifactId>wkcrm</artifactId>
+		<artifactId>opencrm</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 
 	</parent>
 
-	<artifactId>wk_examine</artifactId>
+	<artifactId>open_examine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>examine</name>
 	<description>审批管理</description>
